@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc95e4d9-cb52-4eb5-9147-0432335ec908" name="Changes" comment="Week 5: Iterative Statements Labs">
-      <change afterPath="$PROJECT_DIR$/Labs/chartype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/stringsplitter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/firstword.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/fnamelname.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/numWordInText.py" afterDir="false" />
+    <list default="true" id="cc95e4d9-cb52-4eb5-9147-0432335ec908" name="Changes" comment="Week 6: Strings">
+      <change afterPath="$PROJECT_DIR$/Labs/firstword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/isleapyear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/remaining.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lectures/fahrenheittocelsius.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lectures/fonofsquares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lectures/palindromechecker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="phil bryan &lt;bryanpc01.ceal@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
@@ -53,12 +59,17 @@
     "Python.computeAvg.executor": "Run",
     "Python.counter.executor": "Run",
     "Python.evennumbers.executor": "Run",
+    "Python.fahrenheittocelsius.executor": "Run",
     "Python.fibonacci.executor": "Run",
     "Python.firstword.executor": "Run",
     "Python.fnamelname.executor": "Run",
+    "Python.fonofsquares.executor": "Run",
+    "Python.isleapyear.executor": "Run",
     "Python.multtable.executor": "Run",
     "Python.numWordInText.executor": "Run",
+    "Python.palindromechecker.executor": "Run",
     "Python.printsquare.executor": "Run",
+    "Python.remaining.executor": "Run",
     "Python.stringsplitter.executor": "Run",
     "Python.triangle.executor": "Run",
     "Python.turtleDrawing.executor": "Run",
@@ -98,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702155168948</updated>
-      <workItem from="1702155172094" duration="24196000" />
+      <workItem from="1702155172094" duration="29969000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Computer Programming Course Labs/Assignments Initial Commit">
       <option name="closed" value="true" />
@@ -132,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702222663466</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Week 5: Iterative Statements Labs">
+      <option name="closed" value="true" />
+      <created>1702228265186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702228265186</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Week 6: Strings">
+      <option name="closed" value="true" />
+      <created>1702228329757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702228329757</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,27 +181,33 @@
     <MESSAGE value="Week 3: Numerical Data Types and Arithmetic Expressions Labs" />
     <MESSAGE value="Week 4: Branching Statements Labs" />
     <MESSAGE value="Week 5: Iterative Statements Labs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 5: Iterative Statements Labs" />
+    <MESSAGE value="Week 6: Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 6: Strings" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/basic_computer_programming$bmiimperial.coverage" NAME="bmiimperial Coverage Results" MODIFIED="1702168339259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$multtable.coverage" NAME="multtable Coverage Results" MODIFIED="1702219017902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$fnamelname.coverage" NAME="fnamelname Coverage Results" MODIFIED="1702226332239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
-    <SUITE FILE_PATH="coverage/basic_computer_programming$turtleDrawing.coverage" NAME="turtleDrawing Coverage Results" MODIFIED="1702161194351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
-    <SUITE FILE_PATH="coverage/basic_computer_programming$bmimetric.coverage" NAME="bmimetric Coverage Results" MODIFIED="1702168132939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$chartype.coverage" NAME="chartype Coverage Results" MODIFIED="1702228095587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$coins.coverage" NAME="coins Coverage Results" MODIFIED="1702167824728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$stringsplitter.coverage" NAME="stringsplitter Coverage Results" MODIFIED="1702227796702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$computeAvg.coverage" NAME="computeAvg Coverage Results" MODIFIED="1702220741035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
-    <SUITE FILE_PATH="coverage/basic_computer_programming$cashregister.coverage" NAME="cashregister Coverage Results" MODIFIED="1702209417189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$callcoster.coverage" NAME="callcoster Coverage Results" MODIFIED="1702211657615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
-    <SUITE FILE_PATH="coverage/basic_computer_programming$printsquare.coverage" NAME="printsquare Coverage Results" MODIFIED="1702217453033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$counter.coverage" NAME="counter Coverage Results" MODIFIED="1702166474081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
-    <SUITE FILE_PATH="coverage/basic_computer_programming$firstword.coverage" NAME="firstword Coverage Results" MODIFIED="1702224231342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
-    <SUITE FILE_PATH="coverage/basic_computer_programming$triangle.coverage" NAME="triangle Coverage Results" MODIFIED="1702218561911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$palindromechecker.coverage" NAME="palindromechecker Coverage Results" MODIFIED="1702247812677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$isleapyear.coverage" NAME="isleapyear Coverage Results" MODIFIED="1702248457351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$firstword.coverage" NAME="firstword Coverage Results" MODIFIED="1702248653700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$numWordInText.coverage" NAME="numWordInText Coverage Results" MODIFIED="1702226694666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
-    <SUITE FILE_PATH="coverage/basic_computer_programming$bmimetric2.coverage" NAME="bmimetric2 Coverage Results" MODIFIED="1702207526266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
-    <SUITE FILE_PATH="coverage/basic_computer_programming$evennumbers.coverage" NAME="evennumbers Coverage Results" MODIFIED="1702222091941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
     <SUITE FILE_PATH="coverage/basic_computer_programming$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1702222610605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$bmiimperial.coverage" NAME="bmiimperial Coverage Results" MODIFIED="1702168339259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$bmimetric.coverage" NAME="bmimetric Coverage Results" MODIFIED="1702168132939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$turtleDrawing.coverage" NAME="turtleDrawing Coverage Results" MODIFIED="1702161194351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$fonofsquares.coverage" NAME="fonofsquares Coverage Results" MODIFIED="1702244233616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$cashregister.coverage" NAME="cashregister Coverage Results" MODIFIED="1702209417189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$printsquare.coverage" NAME="printsquare Coverage Results" MODIFIED="1702217453033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$triangle.coverage" NAME="triangle Coverage Results" MODIFIED="1702218561911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$bmimetric2.coverage" NAME="bmimetric2 Coverage Results" MODIFIED="1702207526266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$fahrenheittocelsius.coverage" NAME="fahrenheittocelsius Coverage Results" MODIFIED="1702245487632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$evennumbers.coverage" NAME="evennumbers Coverage Results" MODIFIED="1702222091941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
+    <SUITE FILE_PATH="coverage/basic_computer_programming$remaining.coverage" NAME="remaining Coverage Results" MODIFIED="1702248778636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Labs" />
   </component>
 </project>
